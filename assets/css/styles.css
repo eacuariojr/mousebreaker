@@ -1,5 +1,40 @@
 body{
     background-color: #504746;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#counter{
+    color: #C17C74;
+    position: fixed;
+    left: 30%;
+    width: 40%;
+    top: 10%;
+    height: 30%;
+    align-items: center;
+}
+#counter h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vw;
+}
+
+#clicker{
+    position: fixed;
+    left: 30%;
+    width: 40%;
+    top: 50%;
+    height: 30%;
+}
+#clicker button{
+    border-radius: 200px;
+    width: 100%;
+    height: 100%;
+    background-color: #F4E3B2;
+    color: #504746;
+    font-size: 3vw;
 }
 
 #timer div{
