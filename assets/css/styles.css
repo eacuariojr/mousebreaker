@@ -1,0 +1,19 @@
+body{
+    background-color: #504746;
+}
+
+#timer div{
+    position: fixed;
+    top: 95%;
+    height: 5%;
+    left: 0;
+}
+#active-bar{
+    background-color: #C17C74;
+    width: 100%;
+}
+#inactive-bar{
+    background-color: #C17C74;
+    width: 100%;
+    opacity: 50%;
+}
