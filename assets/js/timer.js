@@ -37,6 +37,7 @@ function incrementScore(){
     let scoreBoard = document.querySelector("#counter h1");
     let score = parseInt(scoreBoard.innerText);
     
+    //potentially more verbose than required. Depends on if javascript allows the ++ operator on a string instead of a number
     scoreBoard.innerHTML = score + 1;
 }
 
